@@ -9,7 +9,7 @@ A finished, dormant 2014 Node.js course on driving bitcoind, dogecoind and Rippl
 ## Stack
 
 - Node.js and npm, with 2014-era dependencies: `nconf ^0.6.9`, `superagent ^0.20.0`, `bitcoin ^2.2.0`, `ripple-rest-client ^1.10.2`, `node-dogecoin ^0.3.9`, `blockchain-account-monitor ^0.2.0`, `ripple-account-monitor ^2.0.0`. Needs a Node version from that era. Not verified on current Node.
-- Redis for lessons 6 and later.
+- Redis and `node-resque` for lesson 6. `node-resque` is not declared in `package.json`.
 - Live bitcoind, dogecoind or Ripple REST servers. The lessons cannot do anything without them.
 
 ## Layout

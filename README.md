@@ -2,7 +2,7 @@
 
 *Interact with Bitcoin, Ripple, and Dogecoin*
 
-> **Status: finished and dormant since October 2014.** A fork-along Node.js course written 2014-10-22 to 2014-10-24, in Steven's 2014 Ripple gateway era. Lessons 7 and 8 are empty files. The dependencies are from 2014 and I have not run the lessons on a current toolchain, so treat the code as a historical teaching record.
+> **Status: finished and dormant since October 2014.** A fork-along Node.js course written 2014-10-22 to 2014-10-24, in Steven's 2014 Ripple gateway era. Lessons 7 and 8 are empty files. The dependencies are from 2014 and the lessons have not been run on a current toolchain, so treat the code as a historical teaching record.
 
 The purpose of this course is to learn to interact with
 three crypto-money networks directly with their
@@ -41,7 +41,7 @@ the following abilities, all using Node.js:
 npm install
 ```
 
-You need Node.js and a local Redis for lessons 6 and later. Each lesson also needs a running bitcoind, dogecoind or Ripple REST server that you can reach. The dependencies are pinned to 2014 ranges (`nconf`, `superagent`, `bitcoin`, `ripple-rest-client`, `node-dogecoin`, `blockchain-account-monitor`, `ripple-account-monitor`).
+You need Node.js and a local Redis for lessons 6 and later. Each lesson also needs a running bitcoind, dogecoind or Ripple REST server that you can reach. The dependencies are pinned to 2014 ranges (`nconf`, `superagent`, `bitcoin`, `ripple-rest-client`, `node-dogecoin`, `blockchain-account-monitor`, `ripple-account-monitor`). Lesson 6 also needs `node-resque`, which is not listed in `package.json`, so install it yourself (`npm install node-resque`).
 
 ## Usage
 
